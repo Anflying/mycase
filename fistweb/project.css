@@ -1,0 +1,213 @@
+body{
+	background-image: url("zyf.jpg");
+}
+
+a{
+	color: gray;
+	text-decoration: none;
+}
+
+.clear{
+	clear: both;
+}
+
+
+
+#head{
+	width:960px;
+	margin: auto;
+	color: white;
+	border-bottom: dashed 1px;
+	margin-bottom: 20px;
+}
+
+#wrapper{
+	margin: auto;
+	width: 960px;
+}
+
+.main{
+	width: 680px;
+	background-color: white;
+	float: left;
+	margin-right: 20px;
+	border-radius: 8px;
+	padding:20px;
+}
+
+.side{
+	width: 220px;
+	float: right;
+	background-color: white;
+	border-radius: 10px;
+}
+
+#footer{
+	height: 60px;
+	width: 960px;
+	margin: auto;
+	border-top: dashed 1px white;
+	margin-top: 20px;
+}
+
+.logo_title{
+	float: left;
+}
+
+.navi{
+	float: right;
+}
+
+.navi ul{
+	list-style: none;
+	margin-top: 85px;
+}
+
+
+.navi ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.navi ul li a{
+    color: white;   
+    border: solid 1px white;
+    padding: 4px;
+    padding-left: 14px;
+    padding-right: 14px;
+    border-radius: 6px;
+    font-size: 10px;
+}
+
+.item{
+	border-bottom: dashed 1px #ccc;
+	padding-bottom: 10px;
+	margin-top: 14px;
+	margin-bottom: 10px;
+
+}
+
+.item_img{
+	float: left;
+	width: 100px;
+	padding-top: 10px;
+	padding-left: 10px;
+}
+ 
+.item_img img{
+	width: 80px;
+}
+
+.item_content{
+	padding-left: 100px;
+	margin-top: 6px;
+}
+
+.item_content h3 {
+	font-size: 16px;
+	color: #a5612d;
+	margin-right: 0;
+	margin: 0;
+}
+
+.item_info{
+	font-size: 12px;
+	font-style: italic;
+	margin: 0;
+	color: #999;
+
+}
+
+.item_desc{
+	font-size: 14px;
+	margin: 0;
+	color: gray;
+	margin-top: 10px;
+	border-left: solid 1px #ccc;
+	padding-left: 10px;
+}
+
+.author_img{
+	width: 120px;
+	margin: auto;
+	margin-right: 39px;
+}
+.author_img img{
+	width: 100px;
+    margin-top: 20px;
+    border-radius: 6px;
+}
+
+.author_desc{
+	text-align: center;
+	border: solid 1px #ccc;
+	border-radius: 6px;
+	margin-top: 10px;
+	margin-right: 10px;
+	margin-left: 10px;
+	background-color: #eee;
+}
+.author_desc p{
+	margin: 0;
+	font-size: 10px;
+	margin-right: 25px;
+	margin-left: 25px;
+	margin-bottom: 10px;
+}
+
+.author_desc h4{
+	margin-bottom: 10px;
+}
+
+.top_article h5{
+	font-size: 15px;
+	font-style: italic;
+	border-bottom: dashed 1px #ccc;
+	color: #999;
+}
+
+.top_article ul{
+	list-style: none;
+	padding-left: 0;
+	margin-left: 10px;
+	font-size: 15px;
+}
+
+.top_article ul li{
+	margin-top: 10px;
+	color: #999;
+}
+
+
+.site_info{
+   margin-top: 30px;
+   border-top: solid 1px #ccc;
+}
+
+
+.site_info p{
+	font-size: 13px;
+	color: gray;
+	padding-left: 60px;
+}
+
+.site_about{
+	float: left;
+	color: black;
+	padding-left: 30px;
+}
+
+.site_link{
+	float: right;
+}
+
+.site_link ul{
+	list-style: none;
+	margin: 0;
+}
+
+.site_link ul li{
+	display: inline-block;
+	margin: 0;
+	padding-right:10px;
+}
